@@ -1,13 +1,17 @@
-local colorscheme = require("lazyvim.plugins.colorscheme")
 return {
+  -- {
+  --   "haishanh/night-owl.vim",
+  --   lazy = true,
+  -- },
   {
-    "haishanh/night-owl.vim",
+    "catppuccin/nvim",
+    lazy = true,
+    name = "catppuccin",
   },
-
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "night-owl",
+      colorscheme = "catppuccin-mocha",
     },
   },
 }
