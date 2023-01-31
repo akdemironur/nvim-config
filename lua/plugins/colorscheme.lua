@@ -1,47 +1,47 @@
 return {
     {
         "haishanh/night-owl.vim",
-        lazy = true,
+        lazy = false,
     },
     {
         "EdenEast/nightfox.nvim",
-        lazy = true,
+        lazy = false,
     },
     {
         "nyoom-engineering/oxocarbon.nvim",
-        lazy = true,
+        lazy = false,
     },
     {
         "jacoborus/tender.vim",
-        lazy = true,
+        lazy = false,
     },
     {
         "arcticicestudio/nord-vim",
-        lazy = true,
+        lazy = false,
     },
     {
         "dracula/vim",
-        lazy = true,
+        lazy = false,
     },
     {
         "catppuccin/nvim",
-        lazy = true,
+        lazy = false,
         name = "catppuccin",
-        -- opts = {
-        --     flavour = "mocha", -- latte, frappe, macchiato, mocha
-        --     color_overrides = {
-        --         mocha = {
-        --             base = "#000000",
-        --             mantle = "#000000",
-        --             crust = "#000000",
-        --         },
-        --     },
-        -- },
+    },
+    {
+        "bluz71/vim-nightfly-colors",
+        name = "nightfly",
+        lazy = false,
+    },
+    {
+        "bluz71/vim-moonfly-colors",
+        name = "moonfly",
+        lazy = false,
     },
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "catppuccin-macchiato",
+            colorscheme = "moonfly",
         },
     },
 }
