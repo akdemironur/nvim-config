@@ -1,42 +1,42 @@
 return {
     {
         "haishanh/night-owl.vim",
-        lazy = false,
+        lazy = true,
     },
     {
         "EdenEast/nightfox.nvim",
-        lazy = false,
+        lazy = true,
     },
     {
         "nyoom-engineering/oxocarbon.nvim",
-        lazy = false,
+        lazy = true,
     },
     {
         "jacoborus/tender.vim",
-        lazy = false,
+        lazy = true,
     },
     {
         "arcticicestudio/nord-vim",
-        lazy = false,
+        lazy = true,
     },
     {
         "dracula/vim",
-        lazy = false,
+        lazy = true,
     },
     {
         "catppuccin/nvim",
-        lazy = false,
+        lazy = true,
         name = "catppuccin",
     },
     {
         "bluz71/vim-nightfly-colors",
         name = "nightfly",
-        lazy = false,
+        lazy = true,
     },
     {
         "bluz71/vim-moonfly-colors",
         name = "moonfly",
-        lazy = false,
+        lazy = true,
     },
     {
         "LazyVim/LazyVim",
