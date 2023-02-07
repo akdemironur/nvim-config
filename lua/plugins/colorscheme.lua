@@ -13,6 +13,7 @@ return {
     },
     {
         "jacoborus/tender.vim",
+        name = "tender",
         lazy = true,
     },
     {
@@ -39,9 +40,13 @@ return {
         lazy = true,
     },
     {
+        "ellisonleao/gruvbox.nvim",
+        lazy = true,
+    },
+    {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "moonfly",
+            colorscheme = "tokyonight-night",
         },
     },
 }
