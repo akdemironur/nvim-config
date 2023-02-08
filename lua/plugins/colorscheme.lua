@@ -44,6 +44,21 @@ return {
         lazy = true,
     },
     {
+        "vv9k/bogster",
+        name = "bogster",
+        lazy = true,
+    },
+    {
+        "sainnhe/everforest",
+        name = "everforest",
+        lazy = true,
+    },
+    {
+        "cocopon/iceberg.vim",
+        name = "iceberg",
+        lazy = true,
+    },
+    {
         "LazyVim/LazyVim",
         opts = {
             colorscheme = "bogster",
