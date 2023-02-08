@@ -5,7 +5,7 @@ return {
     },
     {
         "EdenEast/nightfox.nvim",
-        lazy = true,
+        lazy = false,
     },
     {
         "nyoom-engineering/oxocarbon.nvim",
@@ -26,7 +26,7 @@ return {
     },
     {
         "catppuccin/nvim",
-        lazy = true,
+        lazy = false,
         name = "catppuccin",
     },
     {
@@ -46,7 +46,7 @@ return {
     {
         "vv9k/bogster",
         name = "bogster",
-        lazy = true,
+        lazy = false,
     },
     {
         "sainnhe/everforest",
