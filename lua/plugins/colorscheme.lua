@@ -59,9 +59,14 @@ return {
         lazy = true,
     },
     {
+        "rebelot/kanagawa.nvim",
+        name = "kanagawa",
+        lazy = true,
+    },
+    {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "bogster",
+            colorscheme = "kanagawa",
         },
     },
 }
