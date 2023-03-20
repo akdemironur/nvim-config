@@ -64,9 +64,14 @@ return {
         lazy = true,
     },
     {
+        "NTBBloodbath/sweetie.nvim",
+        name = "sweetie",
+        lazy = true,
+    },
+    {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "duskfox",
+            colorscheme = "sweetie",
         },
     },
 }
